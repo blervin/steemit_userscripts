@@ -9,21 +9,14 @@ In order to execute these userscripts, we need a userscript manager for our brow
 
 Just click the link for your browser and install the extension.
 
-#### Update userscript
-The only change you need to make is the tags definition. Set this list to those tags you prefer, as many as you want.
-
-```
-var tags = ['utopian-io','linux','steemsql','sql','linux','programming','coding','technology'];
-```
-
 ## Create New userscript
 In Chrome, we can click the Tampermonkey icon and select `Create a new script...`
 
 ![new_tamper.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1517712720/hu3xvzkbxg6xizvrd6jr.png)
 
-Then, we just paste in our modified script with the specific tags we want to browse and save.
+Then, we just paste in our script.
 
-![tamper_script.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1519410077/fu5xjv4lhkkhzgdxwblw.png)
+![chrome.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1520260685/uaqaudyolx2zfcmkqzrn.png)
 
 In Firefox, click the Greasemonkey icon and click `New userscript...`
 
@@ -31,9 +24,18 @@ In Firefox, click the Greasemonkey icon and click `New userscript...`
 
 Again, we just paste in the script and save.
 
-![grease_script.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1519410286/k3tfat4tlhgz0obne1lv.png)
+![firefox.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1520260688/cnfy9u3oc4pdnj8yvsop.png)
 
-Repeat this process for the second script if you also want this for the responsive menu.
+## Set Tags
+Once installed, you'll notice a new `My tags` sidebar on the right.
+
+![set_tags.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1520260696/desycglvlrjg8nayx7ym.png)
+
+If you click `Set tags` a menu will appear to set your tags.
+
+![menu.png](https://res.cloudinary.com/hpiynhbhq/image/upload/v1520260693/e4zfqxzualkz0c4aq9qn.png)
+
+Just enter a list of comma separated tags and click `Save` and the page will refresh with your new tags!
 
 #### Just My Tags
 And now you have your own custom tags menus!
